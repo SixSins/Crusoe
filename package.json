@@ -1,0 +1,35 @@
+{
+  "name": "Crusoe",
+  "version": "0.0.1",
+  "description": "Host your own Minecraft Realm.",
+  "main": "dist/routes.js",
+  "repository": "https://github.com/SixSins/Crusoe.git",
+  "author": "SixSins <sixsixsixsins@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "",
+    "build": "",
+    "serve": "webpack-dev-server --content-base ./dist --inline --hot"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.39",
+    "@types/koa-router": "^7.0.22",
+    "@types/node": "^7.0.29",
+    "@types/react-dom": "^15.5.0",
+    "@types/react-router-dom": "^4.0.4",
+    "node-sass": "^4.5.3",
+    "ts-loader": "^2.1.0",
+    "ts-node": "^3.0.6",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-router": "^7.2.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router-dom": "^4.1.1"
+  }
+}
